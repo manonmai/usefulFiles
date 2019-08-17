@@ -1,0 +1,39 @@
+http://10.236.246.18:8081/report/....
+
+
+
+https://owlcation.com/stem/How-to-control-values-displayed-in-one-HTML-Dropdown-List-with-the-other-using-simple-JavaScript
+
+https://stackblitz.com/edit/cascading-dropdown-angular?file=app%2Fapp.component.ts
+
+
+
+//icons in angular
+
+https://mdbootstrap.com/docs/angular/content/icons-list/
+
+
+
+preloading in angular
+https://www.tektutorialshub.com/angular/angular-preloading-strategy/ 
+
+
+https://stackoverflow.com/questions/51225905/how-can-i-disable-past-dates-in-angular-p-calendar
+
+
+https://www.tutorialspoint.com/angular4/angular4_http_service.htm
+
+
+https://stackoverflow.com/questions/51989482/adding-http-headers-in-angular-6
+
+
+
+[
+      new CodeBase(1, 1, "Java", "java"),
+      new CodeBase(2, 1, "Kotlin", "kotlin"),
+      new CodeBase(3, 2, "Angular", "web"),
+      new CodeBase(4, 2, "React", "web"),
+      new CodeBase(5, 2, "Polymer", "web"),
+      new CodeBase(6, 3, "C#", "c#"),
+      new CodeBase(7, 3, "Python", "py")
+    ];

@@ -1,0 +1,73 @@
+create table ticket(
+passenger_id number(3),
+pnr number(4),
+flight_id number(3),
+seat_no number(3),
+primary key(pnr),
+foreign key(passenger_id) references passenger(id));
+
+
+
+insert all
+into ticket values('PI001',100, 101,'pl-101','sc-001')
+into ticket values('PI002',101,102,'pl-102','sc-002')
+into ticket values('PI003',102,103,'pl-103','sc-003')
+into ticket values('PI004',103,104,'pl-104','sc-004')
+into ticket values('PI005',104,105,'pl-105','sc-005')
+select * from dual;
+
+
+
+
+delete from ticket where pnr=?
+
+delete from passenger where id=?
+
+
+
+
+
+DELETE t, p 
+FROM passenger p Ticket t 
+WHERE t.Passenger_id = p.id AND Pnr = ?
+
+
+DELETE t,p 
+FROM Ticket t 
+INNER JOIN passenger p 
+ON t.Passenger_id=p.id 
+Where t.Pnr='100';
+
+
+CREATE SEQUENCE passenger_seq
+start with 1
+increment by 1
+minvalue 1
+maxvalue 180
+nocycle;
+
+
+CREATE SEQUENCE ticket_seq
+start with 1001
+increment by 1
+minvalue 1001
+maxvalue 1180
+nocycle;
+
+
+CREATE SEQUENCE seat_seq
+start with 501
+increment by 1
+minvalue 501
+maxvalue 680
+nocycle;
+
+
+create table ticket(
+passenger_id number(3),
+pnr number(4),
+flight_id number(3),
+seat_no number(3),
+primary key(pnr),
+foreign key(passenger_id) references passenger(id));
+

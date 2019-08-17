@@ -1,0 +1,33 @@
+create table flight(
+flight_id number(3),
+capacity number(3),
+route_id number(3),
+schedule_id number(3),
+foreign key (route_id) references route(route_id),
+foreign key(schedule_id) references schedule(schedule_id),
+primary key(flight_id));
+
+FOREIGN KEY route (route_id)
+REFERENCES flight(route_id)
+FOREIGN KEY schedule(schedule_id)
+REFERENCES flight(schedule_id)
+
+insert all
+into flight values(301,100,101,201)
+into flight values(302,150,102,202)
+into flight values(303,120,103,203)
+select * from dual;
+
+
+@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="mySeqFlight")
+	@SequenceGenerator(name="mySeqFlight", sequenceName="mySeqFlight")
+
+
+
+CREATE SEQUENCE mySeqFlight
+START WITH 301
+increment by 1
+MINVALUE 301
+MAXVALUE 999
+NOCYCLE
+;

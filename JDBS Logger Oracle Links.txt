@@ -1,0 +1,37 @@
+Oracle
+
+ 
+
+https://www.tutorialspoint.com/oracle_sql/oracle_sql_introduction.asp ( Series )
+
+ 
+
+https://www.youtube.com/watch?v=9Pzj7Aj25lw ( 1 Hr Video )
+
+ 
+
+IO programming
+
+ 
+
+https://www.youtube.com/watch?v=EtIhgC2nb_I(serialization with Transient and best practice)
+
+https://www.youtube.com/watch?v=_jhCvy8_lGE ( PrintWriter , Serializable concept )
+
+ 
+
+Logger ( Debugging )
+
+https://www.youtube.com/watch?v=-GkRuFU_sUg
+
+https://dzone.com/articles/understanding-java-logging-hell-the-basics-video(Different Logger)
+
+https://codesjava.com/log4j-tutorial-beginners-eclipse
+
+ 
+
+JDBC
+
+https://www.youtube.com/watch?v=bo62AqckwHc
+
+https://www.youtube.com/watch?v=y_YxwyYRJek(Navin reddy)

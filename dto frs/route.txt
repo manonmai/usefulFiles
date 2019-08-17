@@ -1,0 +1,31 @@
+
+create table route(
+route_id number(3),
+source varchar2(10),
+destination varchar2(10),
+primary key(route_id));
+
+
+insert all
+insert into route(route_id, source, destination) values(101,'mumbai','delhi')
+insert into route(route_id, source, destination) values(102,'mumbai','banglore')
+insert into route(route_id, source, destination) values(103,'delhi','banglore')
+select * from dual;
+
+
+
+@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="mySeq")
+	@SequenceGenerator(name="mySeq", sequenceName="mySeq")
+
+
+
+CREATE SEQUENCE mySeq
+START WITH 101
+increment by 1
+MAXVALUE 999
+MINVALUE 101
+NOCYCLE
+;
+
+
+20-JUL-19 05.45.44.161000 PM ASIA/CALCUTTA

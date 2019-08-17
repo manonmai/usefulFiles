@@ -1,0 +1,18 @@
+
+
+youtube.com/watch?v=0raBCT_x1KA
+
+
+
+http://www.catchmycity.com/tutorial/how-to-mock-private-method-with-and-without-parameter-using-jmockit-with-deencapsulation_97
+
+
+https://www.baeldung.com/jmockit-101
+
+
+
+<dependency>
+	<groupId>org.jmockit</groupId>
+	<artifactId>jmockit</artifactId>
+	<version>1.40</version>
+</dependency>

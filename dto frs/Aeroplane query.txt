@@ -1,0 +1,14 @@
+//for creating table
+ create table Aeroplane(
+ Aeroplane_id varchar2(6),
+ capacity number(3),
+ Primary key(Aeroplane_id));
+
+//for inserting
+insert all
+into Aeroplane(Aeroplane_id, capacity) Values('pl-101', 300)
+into Aeroplane(Aeroplane_id, capacity) Values('pl-102', 340)
+into Aeroplane(Aeroplane_id, capacity) Values('pl-103', 350)
+into Aeroplane(Aeroplane_id, capacity) Values('pl-104', 200)
+into Aeroplane(Aeroplane_id, capacity) Values('pl-105', 250)
+Select * from dual;

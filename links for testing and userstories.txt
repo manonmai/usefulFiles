@@ -1,0 +1,21 @@
+User Stories
+
+https://www.mountaingoatsoftware.com/agile/user-stories
+
+Testing
+
+https://www.softwaretestinghelp.com/testing-java-applications-part-1/
+
+ 
+
+ 
+
+https://stackoverflow.com/questions/36901680/why-use-junit-test-suites
+
+ 
+
+https://howtodoinjava.com/junit/how-to-execute-junit-testcases-in-test-suite/
+
+ 
+
+ 

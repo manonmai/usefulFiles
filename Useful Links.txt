@@ -1,0 +1,43 @@
+Intro to hashcode and equals
+
+https://www.youtube.com/watch?v=ghswNpRv2t0
+
+https://www.youtube.com/watch?v=7V3589CReug
+
+https://www.youtube.com/watch?v=7V3589CReug
+
+ 
+
+Wrapper class
+
+https://www.youtube.com/watch?v=_ttMPwlNJVA
+
+ 
+
+https://www.youtube.com/watch?v=XKEBjp1k8cQ&vl=en
+
+ 
+
+Collection
+
+https://www.youtube.com/watch?v=SMIq13-FZSE(LinkedList)
+
+https://www.youtube.com/watch?v=f_AZDdafncE
+
+https://www.youtube.com/watch?v=mFY0J5W8Udk
+
+ 
+
+https://www.youtube.com/watch?v=IEqvmsqjpT0
+
+
+
+
+difference between list arraylist 
+hashset link set
+hash table hash map
+use of property class
+sorted map map
+
+
+

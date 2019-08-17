@@ -1,0 +1,31 @@
+create table schedule (schedule_id number(3),departure_date date,arrival_date 
+date,departure_time varchar2(5),arrival_time varchar2(5),price number(6,2), primary key(schedule_id));
+
+insert all 
+into schedule values(201, to_date('20-07-2019', 'dd-MM-yyyy'),to_date('20-07-2019', 'dd-MM-yyyy'), '10:20','01:45', 4500.90)
+into schedule values(202, to_date('21-07-2019', 'dd-MM-yyyy'),to_date('21-07-2019', 'dd-MM-yyyy'), '18:50','20:45', 4500.90)
+into schedule values(203, to_date('22-07-2019', 'dd-MM-yyyy'),to_date('23-07-2019', 'dd-MM-yyyy'), '23:20','02:45', 4500.90)
+select * from dual;
+
+
+@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="mySeqSchedule")
+	@SequenceGenerator(name="mySeqSchedule", sequenceName="mySeqSchedule")
+
+
+
+CREATE SEQUENCE myseqSchedule
+START WITH 204
+increment by 1
+MAXVALUE 999
+MINVALUE 204
+NOCYCLE
+;
+
+
+
+{"arrivalDate" : "2019-02-01",
+	"departureDate" : "2019-02-01",
+	"arrivalTime" :"12:12",
+	"departureTime":"12:14",
+	"price":1265
+}

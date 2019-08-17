@@ -1,0 +1,32 @@
+create table passenger(
+	id number(3) not null primary key,
+	name varchar2(40) not null,
+	age number(3) not null,
+	mobile_no char(10) not null,
+	email_id varchar2(50)
+);
+
+
+INSERT INTO passenger
+VALUES (1, 'Vishal Singhaniya', 22, '9983077144', 'vishal.singh@capgemini.com');
+
+INSERT INTO passenger
+VALUES (2, 'Aman Vijay', 22, '9383073144', 'aman.vijay@capgemini.com'); 
+
+INSERT INTO passenger
+VALUES (3, 'Surendran', 22, '9483077144', 'surendaran@capgemini.com' ); 
+
+INSERT INTO passenger
+VALUES (4, 'Sita', 22, '9983075144', 'seeta@capgemini.com'); 
+
+INSERT INTO passenger
+VALUES (5, 'Sakshi Goyal', 22, '9983077148', 'sakshi@capgemini.com'); 
+
+
+
+CREATE SEQUENCE passenger_seq
+start with 1
+increment by 1
+minvalue 1
+maxvalue 180
+nocycle;

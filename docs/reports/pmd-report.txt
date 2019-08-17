@@ -1,0 +1,398 @@
+src/main/java/com/cg/resourcedeploy/ResourceDeployApplication.java:7:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/cg/resourcedeploy/ResourceDeployApplication.java:7:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/cg/resourcedeploy/ResourceDeployApplication.java:7:	Header comments are required
+src/main/java/com/cg/resourcedeploy/ResourceDeployApplication.java:7:	Header comments are required
+src/main/java/com/cg/resourcedeploy/ResourceDeployApplication.java:9:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/ResourceDeployApplication.java:9:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/ResourceDeployApplication.java:9:	Public method and constructor comments are required
+src/main/java/com/cg/resourcedeploy/ResourceDeployApplication.java:9:	Public method and constructor comments are required
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:27:	Each class should declare at least one constructor
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:27:	Each class should declare at least one constructor
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:32:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:32:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:32:	The Logger variable declaration does not contain the static and final modifiers
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:32:	The Logger variable declaration does not contain the static and final modifiers
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:32:	To avoid mistakes add a comment at the beginning of the logger field if you want a default access modifier
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:32:	To avoid mistakes add a comment at the beginning of the logger field if you want a default access modifier
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:32:	Use explicit scoping instead of the default package private level
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:32:	Use explicit scoping instead of the default package private level
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:34:	Field comments are required
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:34:	Field comments are required
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:37:	Avoid excessively long variable names like resourceDeployService
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:37:	Avoid excessively long variable names like resourceDeployService
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:37:	Field comments are required
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:37:	Field comments are required
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:47:	Avoid excessively long variable names like employeeMasterEntity
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:47:	Avoid excessively long variable names like employeeMasterEntity
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:47:	Parameter 'employeeMasterEntity' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:47:	Parameter 'employeeMasterEntity' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:58:	Comment is too large: Line too long
+src/main/java/com/cg/resourcedeploy/controller/ResouceDeployController.java:58:	Comment is too large: Line too long
+src/main/java/com/cg/resourcedeploy/dao/IResourceDeployDao.java:22:	Avoid excessively long variable names like employeeMasterEntity
+src/main/java/com/cg/resourcedeploy/dao/IResourceDeployDao.java:22:	Avoid excessively long variable names like employeeMasterEntity
+src/main/java/com/cg/resourcedeploy/dao/IResourceDeployDao.java:22:	Unnecessary modifier 'public' on method 'fetchDataByBu': the method is declared in an interface type
+src/main/java/com/cg/resourcedeploy/dao/IResourceDeployDao.java:22:	Unnecessary modifier 'public' on method 'fetchDataByBu': the method is declared in an interface type
+src/main/java/com/cg/resourcedeploy/dao/IResourceDeployDao.java:29:	Unnecessary modifier 'public' on method 'fetchEmployeeResources': the method is declared in an interface type
+src/main/java/com/cg/resourcedeploy/dao/IResourceDeployDao.java:29:	Unnecessary modifier 'public' on method 'fetchEmployeeResources': the method is declared in an interface type
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:24:	Each class should declare at least one constructor
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:24:	Each class should declare at least one constructor
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:30:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:30:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:30:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:30:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:33:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:33:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:33:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:33:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:40:	Avoid excessively long variable names like employeeMasterEntity
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:40:	Avoid excessively long variable names like employeeMasterEntity
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:40:	Parameter 'employeeMasterEntity' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:40:	Parameter 'employeeMasterEntity' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:41:	Local variable 'buName' could be declared final
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:41:	Local variable 'buName' could be declared final
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:43:	Avoid if (x != y) ..; else ..;
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:43:	Avoid if (x != y) ..; else ..;
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:44:	Local variable 'query' could be declared final
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:44:	Local variable 'query' could be declared final
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:50:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:50:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:51:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:51:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:52:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:52:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:52:	System.out.println is used
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:52:	System.out.println is used
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:53:	System.out.println is used
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:53:	System.out.println is used
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:69:	Local variable 'query' could be declared final
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:69:	Local variable 'query' could be declared final
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:76:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:76:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:77:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImpl.java:77:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:22:	Each class should declare at least one constructor
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:22:	Each class should declare at least one constructor
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:22:	The class 'BenchMasterEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=14, WMC=14)
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:22:	The class 'BenchMasterEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=14, WMC=14)
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:28:	Avoid excessively long variable names like benchAvailabilityId
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:28:	Avoid excessively long variable names like benchAvailabilityId
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:28:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:28:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:31:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:31:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:34:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:34:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:37:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:37:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:40:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:40:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:43:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:43:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:46:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:46:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:49:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:49:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:49:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:49:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:49:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:49:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:49:	Private field 'benchMaster' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:49:	Private field 'benchMaster' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:55:	Avoid excessively long variable names like benchAvailabilityId
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:55:	Avoid excessively long variable names like benchAvailabilityId
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:55:	Parameter 'benchAvailabilityId' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:55:	Parameter 'benchAvailabilityId' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:59:	Linguistics Antipattern - The method 'isActiveFlag' indicates linguistically it returns a boolean, but it returns 'int'
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:59:	Linguistics Antipattern - The method 'isActiveFlag' indicates linguistically it returns a boolean, but it returns 'int'
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:63:	Parameter 'activeFlag' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:63:	Parameter 'activeFlag' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:71:	Parameter 'createdBy' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:71:	Parameter 'createdBy' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:79:	Parameter 'createdDate' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:79:	Parameter 'createdDate' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:87:	Parameter 'updatedBy' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:87:	Parameter 'updatedBy' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:95:	Parameter 'updatedDate' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:95:	Parameter 'updatedDate' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:103:	Parameter 'availabilityName' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/BenchMasterEntity.java:103:	Parameter 'availabilityName' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:1:	This class has a bunch of public methods and attributes
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:1:	This class has a bunch of public methods and attributes
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:21:	Each class should declare at least one constructor
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:21:	Each class should declare at least one constructor
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:21:	Too many fields
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:21:	Too many fields
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:27:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:27:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:30:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:30:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:33:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:33:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:36:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:36:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:39:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:39:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:42:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:42:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:45:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:45:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:48:	Avoid variables with short names like bu
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:48:	Avoid variables with short names like bu
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:48:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:48:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:51:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:51:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:54:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:54:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:57:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:57:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:60:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:60:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:63:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:63:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:66:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:66:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:66:	Linguistics Antipattern - The field 'isResume' indicates linguistically it is a boolean, but it is 'int'
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:66:	Linguistics Antipattern - The field 'isResume' indicates linguistically it is a boolean, but it is 'int'
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:69:	Avoid excessively long variable names like isTrainingAssigned
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:69:	Avoid excessively long variable names like isTrainingAssigned
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:69:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:69:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:69:	Linguistics Antipattern - The field 'isTrainingAssigned' indicates linguistically it is a boolean, but it is 'int'
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:69:	Linguistics Antipattern - The field 'isTrainingAssigned' indicates linguistically it is a boolean, but it is 'int'
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:72:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:72:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:75:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:75:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:78:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:78:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:81:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:81:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:84:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:84:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:87:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:87:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:90:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:90:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:93:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:93:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:93:	Linguistics Antipattern - The field 'isNewUser' indicates linguistically it is a boolean, but it is 'int'
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:93:	Linguistics Antipattern - The field 'isNewUser' indicates linguistically it is a boolean, but it is 'int'
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:97:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:97:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:101:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:101:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:107:	Parameter 'benchMaster' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:107:	Parameter 'benchMaster' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:115:	Parameter 'gradeMaster' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:115:	Parameter 'gradeMaster' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:123:	Parameter 'empId' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:123:	Parameter 'empId' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:131:	Parameter 'activeFlag' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:131:	Parameter 'activeFlag' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:139:	Parameter 'createdBy' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:139:	Parameter 'createdBy' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:147:	Parameter 'createdDate' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:147:	Parameter 'createdDate' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:155:	Parameter 'updatedBy' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:155:	Parameter 'updatedBy' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:163:	Parameter 'updatedDate' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:163:	Parameter 'updatedDate' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:171:	Parameter 'benchAge' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:171:	Parameter 'benchAge' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:179:	Avoid variables with short names like bu
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:179:	Avoid variables with short names like bu
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:179:	Parameter 'bu' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:179:	Parameter 'bu' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:187:	Parameter 'dateOfJoining' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:187:	Parameter 'dateOfJoining' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:195:	Parameter 'emailId' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:195:	Parameter 'emailId' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:203:	Parameter 'empName' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:203:	Parameter 'empName' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:211:	Parameter 'gender' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:211:	Parameter 'gender' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:219:	Parameter 'globalId' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:219:	Parameter 'globalId' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:227:	Parameter 'isResume' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:227:	Parameter 'isResume' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:235:	Avoid excessively long variable names like isTrainingAssigned
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:235:	Avoid excessively long variable names like isTrainingAssigned
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:235:	Parameter 'isTrainingAssigned' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:235:	Parameter 'isTrainingAssigned' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:243:	Parameter 'location' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:243:	Parameter 'location' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:251:	Parameter 'mobile' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:251:	Parameter 'mobile' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:259:	Parameter 'resume' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:259:	Parameter 'resume' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:267:	Parameter 'spocId' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:267:	Parameter 'spocId' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:275:	Parameter 'tcgEmployee' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:275:	Parameter 'tcgEmployee' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:283:	Parameter 'etapTagsId' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:283:	Parameter 'etapTagsId' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:291:	Parameter 'password' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:291:	Parameter 'password' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:299:	Parameter 'isNewUser' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/EmployeeMasterEntity.java:299:	Parameter 'isNewUser' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:22:	Each class should declare at least one constructor
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:22:	Each class should declare at least one constructor
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:22:	The class 'GradeMasterEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=20, WMC=20)
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:22:	The class 'GradeMasterEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=20, WMC=20)
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:29:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:29:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:32:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:32:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:32:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:32:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:35:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:35:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:38:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:38:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:41:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:41:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:44:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:44:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:47:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:47:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:50:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:50:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:53:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:53:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:56:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:56:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:59:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:59:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:59:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:59:	Field comments are required
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:59:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:59:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:59:	Private field 'gradeMaster' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:59:	Private field 'gradeMaster' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:65:	Parameter 'gradeId' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:65:	Parameter 'gradeId' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:69:	Linguistics Antipattern - The method 'isActiveFlag' indicates linguistically it returns a boolean, but it returns 'int'
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:69:	Linguistics Antipattern - The method 'isActiveFlag' indicates linguistically it returns a boolean, but it returns 'int'
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:73:	Parameter 'activeFlag' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:73:	Parameter 'activeFlag' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:81:	Parameter 'createdBy' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:81:	Parameter 'createdBy' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:89:	Parameter 'createdDate' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:89:	Parameter 'createdDate' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:97:	Parameter 'updatedBy' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:97:	Parameter 'updatedBy' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:105:	Parameter 'updatedDate' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:105:	Parameter 'updatedDate' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:113:	Parameter 'ceil' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:113:	Parameter 'ceil' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:121:	Parameter 'expBuffer' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:121:	Parameter 'expBuffer' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:129:	Parameter 'floor' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:129:	Parameter 'floor' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:137:	Parameter 'gradeName' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/dto/GradeMasterEntity.java:137:	Parameter 'gradeName' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ErrorResponse.java:8:	The class 'ErrorResponse' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+src/main/java/com/cg/resourcedeploy/exceptions/ErrorResponse.java:8:	The class 'ErrorResponse' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+src/main/java/com/cg/resourcedeploy/exceptions/ErrorResponse.java:10:	Field comments are required
+src/main/java/com/cg/resourcedeploy/exceptions/ErrorResponse.java:10:	Field comments are required
+src/main/java/com/cg/resourcedeploy/exceptions/ErrorResponse.java:12:	Field comments are required
+src/main/java/com/cg/resourcedeploy/exceptions/ErrorResponse.java:12:	Field comments are required
+src/main/java/com/cg/resourcedeploy/exceptions/ErrorResponse.java:14:	Parameter 'callerURL' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ErrorResponse.java:14:	Parameter 'callerURL' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ErrorResponse.java:14:	Parameter 'errorMessage' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ErrorResponse.java:14:	Parameter 'errorMessage' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ErrorResponse.java:14:	Public method and constructor comments are required
+src/main/java/com/cg/resourcedeploy/exceptions/ErrorResponse.java:14:	Public method and constructor comments are required
+src/main/java/com/cg/resourcedeploy/exceptions/ErrorResponse.java:24:	Parameter 'callerURL' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ErrorResponse.java:24:	Parameter 'callerURL' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ErrorResponse.java:32:	Parameter 'errorMessage' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ErrorResponse.java:32:	Parameter 'errorMessage' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptionController.java:19:	Each class should declare at least one constructor
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptionController.java:19:	Each class should declare at least one constructor
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptionController.java:22:	Parameter 'exception' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptionController.java:22:	Parameter 'exception' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptionController.java:22:	Parameter 'request' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptionController.java:22:	Parameter 'request' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptionController.java:22:	Public method and constructor comments are required
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptionController.java:22:	Public method and constructor comments are required
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptionController.java:24:	Local variable 'details' could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptionController.java:24:	Local variable 'details' could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptionController.java:30:	Parameter 'exception' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptionController.java:30:	Parameter 'exception' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptionController.java:30:	Public method and constructor comments are required
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptionController.java:30:	Public method and constructor comments are required
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptionController.java:31:	Parameter 'request' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptionController.java:31:	Parameter 'request' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptionController.java:33:	Local variable 'details' could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptionController.java:33:	Local variable 'details' could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptions.java:12:	Parameter 'message' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptions.java:12:	Parameter 'message' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptions.java:12:	Public method and constructor comments are required
+src/main/java/com/cg/resourcedeploy/exceptions/ResourceDeployExceptions.java:12:	Public method and constructor comments are required
+src/main/java/com/cg/resourcedeploy/service/IResourceDeployService.java:15:	Avoid excessively long variable names like employeeMasterEntity
+src/main/java/com/cg/resourcedeploy/service/IResourceDeployService.java:15:	Avoid excessively long variable names like employeeMasterEntity
+src/main/java/com/cg/resourcedeploy/service/IResourceDeployService.java:15:	Public method and constructor comments are required
+src/main/java/com/cg/resourcedeploy/service/IResourceDeployService.java:15:	Public method and constructor comments are required
+src/main/java/com/cg/resourcedeploy/service/IResourceDeployService.java:15:	Unnecessary modifier 'public' on method 'buEmployeeData': the method is declared in an interface type
+src/main/java/com/cg/resourcedeploy/service/IResourceDeployService.java:15:	Unnecessary modifier 'public' on method 'buEmployeeData': the method is declared in an interface type
+src/main/java/com/cg/resourcedeploy/service/IResourceDeployService.java:17:	Public method and constructor comments are required
+src/main/java/com/cg/resourcedeploy/service/IResourceDeployService.java:17:	Public method and constructor comments are required
+src/main/java/com/cg/resourcedeploy/service/IResourceDeployService.java:17:	Unnecessary modifier 'public' on method 'resourcesAvailable': the method is declared in an interface type
+src/main/java/com/cg/resourcedeploy/service/IResourceDeployService.java:17:	Unnecessary modifier 'public' on method 'resourcesAvailable': the method is declared in an interface type
+src/main/java/com/cg/resourcedeploy/service/impl/ResourceDeployServiceImpl.java:19:	Each class should declare at least one constructor
+src/main/java/com/cg/resourcedeploy/service/impl/ResourceDeployServiceImpl.java:19:	Each class should declare at least one constructor
+src/main/java/com/cg/resourcedeploy/service/impl/ResourceDeployServiceImpl.java:22:	Field comments are required
+src/main/java/com/cg/resourcedeploy/service/impl/ResourceDeployServiceImpl.java:22:	Field comments are required
+src/main/java/com/cg/resourcedeploy/service/impl/ResourceDeployServiceImpl.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/resourcedeploy/service/impl/ResourceDeployServiceImpl.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/resourcedeploy/service/impl/ResourceDeployServiceImpl.java:25:	Avoid excessively long variable names like employeeMasterEntity
+src/main/java/com/cg/resourcedeploy/service/impl/ResourceDeployServiceImpl.java:25:	Avoid excessively long variable names like employeeMasterEntity
+src/main/java/com/cg/resourcedeploy/service/impl/ResourceDeployServiceImpl.java:25:	Parameter 'employeeMasterEntity' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/service/impl/ResourceDeployServiceImpl.java:25:	Parameter 'employeeMasterEntity' is not assigned and could be declared final
+src/main/java/com/cg/resourcedeploy/utility/ResourceDeployMessages.java:7:	The utility class name 'ResourceDeployMessages' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+src/main/java/com/cg/resourcedeploy/utility/ResourceDeployMessages.java:7:	The utility class name 'ResourceDeployMessages' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+src/main/java/com/cg/resourcedeploy/utility/ResourceDeployMessages.java:10:	Field comments are required
+src/main/java/com/cg/resourcedeploy/utility/ResourceDeployMessages.java:10:	Field comments are required
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:5:	Avoid unused imports such as 'org.springframework.context.annotation.ComponentScan'
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:5:	Avoid unused imports such as 'org.springframework.context.annotation.ComponentScan'
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:6:	Avoid unused imports such as 'org.springframework.context.annotation.Configuration'
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:6:	Avoid unused imports such as 'org.springframework.context.annotation.Configuration'
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:25:	Each class should declare at least one constructor
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:25:	Each class should declare at least one constructor
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:28:	Avoid excessively long variable names like resourceDeployService
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:28:	Avoid excessively long variable names like resourceDeployService
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:28:	Avoid unused private fields such as 'resourceDeployService'.
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:28:	Avoid unused private fields such as 'resourceDeployService'.
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:28:	Field comments are required
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:28:	Field comments are required
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:31:	Field comments are required
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:31:	Field comments are required
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:41:	Comment is too large: Line too long
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:41:	Comment is too large: Line too long
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:47:	Avoid excessively long variable names like employeeMasterEntity
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:47:	Avoid excessively long variable names like employeeMasterEntity
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:47:	JUnit tests should include assert() or fail()
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:47:	JUnit tests should include assert() or fail()
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:47:	Parameter 'employeeMasterEntity' is not assigned and could be declared final
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:47:	Parameter 'employeeMasterEntity' is not assigned and could be declared final
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:47:	Public method and constructor comments are required
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:47:	Public method and constructor comments are required
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:48:	Non-static initializers are confusing
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:48:	Non-static initializers are confusing
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:50:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/test/java/com/cg/resourcedeploy/dao/impl/ResourceDeployDaoImplTest.java:50:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/test/java/com/cg/resourcedeploy/stub/ResourceDeployDaoImplStub.java:16:	Each class should declare at least one constructor
+src/test/java/com/cg/resourcedeploy/stub/ResourceDeployDaoImplStub.java:16:	Each class should declare at least one constructor
+src/test/java/com/cg/resourcedeploy/stub/ResourceDeployDaoImplStub.java:19:	Avoid excessively long variable names like employeeMasterBean
+src/test/java/com/cg/resourcedeploy/stub/ResourceDeployDaoImplStub.java:19:	Avoid excessively long variable names like employeeMasterBean
+src/test/java/com/cg/resourcedeploy/stub/ResourceDeployDaoImplStub.java:19:	Parameter 'employeeMasterBean' is not assigned and could be declared final
+src/test/java/com/cg/resourcedeploy/stub/ResourceDeployDaoImplStub.java:19:	Parameter 'employeeMasterBean' is not assigned and could be declared final

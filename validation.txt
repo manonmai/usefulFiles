@@ -1,0 +1,70 @@
+ <form #CustForm="ngForm" (ngSubmit)="OnSubmit()" novalidate>
+      <label><b>First-Name</b></label>
+      <input type="text" #pid="ngModel" pattern="^[a-zA-Z]{2,16}" [class.is-invalid]="pid.invalid && pid.touched" placeholder="Enter First name" [(ngModel)]="reg.firstname" name="firstname" required>
+      <div *ngIf="pid.errors && (pid.invalid || pid.touched)" style="color: red">
+          <small *ngIf="pid.errors.required && pid.touched" >First name is required</small>
+          <small *ngIf="pid.errors.pattern" >First name should not contain integer</small>
+      </div>
+  
+      <label><b>Last-Name</b></label>
+      <input type="text" #pfname="ngModel" pattern="^[a-zA-Z']{2,10}" [class.is-invalid]="pfname.invalid && pfname.touched" placeholder="Enter last name" name="lastname" [(ngModel)]="reg.lastname" required>
+      <div *ngIf="pfname.errors && (pfname.invalid || pfname.touched)" style="color: red">
+        <small  *ngIf="pfname.errors.required && pfname.touched" >Last-Name is Required</small>
+        <small  *ngIf="pfname.errors.pattern" >Last-Name Should not contain integer</small> 
+      </div>
+
+      <label><b>Password</b></label>
+      <input type="password" #pass="ngModel" pattern="^[a-zA-Z0-9]{4,8}$" [class.is-invalid]="pass.invalid && pass.touched" placeholder="Enter Password" name="pass" [(ngModel)]="reg.password" required>
+      <div *ngIf="pass.errors && (pass.invalid || pass.touched)" style="color: red">
+        <small  *ngIf="pass.errors.required && pass.touched" >Password is Required</small>
+        <small  *ngIf="pass.errors.pattern" >Password Should be in format @example Only lower,upper and integers are allowed</small> 
+      </div>
+
+      <label><b>Email</b></label>
+      <input type="text" #email="ngModel" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" [class.is-invalid]="email.invalid && email.touched" placeholder="Enter email id" name="email" [(ngModel)]="reg.email" required>
+      <div *ngIf="email.errors && (email.invalid || email.touched)" style="color: red">
+        <small  *ngIf="email.errors.required && email.touched" >Email id is Required</small>
+        <small  *ngIf="email.errors.pattern" >Email id Should be in format @example @gmail.com</small> 
+      </div>
+
+      <label><b>Phone</b></label>
+      <input type="text" #phone="ngModel" pattern="^[6-9]{1}[0-9]{9}$" [class.is-invalid]="phone.invalid && phone.touched" placeholder="Enter phone no" name="phone" [(ngModel)]="reg.phone" required>
+      <div *ngIf="phone.errors && (phone.invalid || phone.touched)" style="color: red">
+        <small  *ngIf="phone.errors.required && phone.touched" >Phone No is Required</small>
+        <small  *ngIf="phone.errors.pattern" >Phone No Should be in format @example It should be in 10 digit</small> 
+      </div>
+
+      <label><b>State</b></label>
+      <input type="text" #state="ngModel" pattern="[a-zA-Z]{2,15}" [class.is-invalid]="state.invalid && state.touched" placeholder="Enter state" name="state" [(ngModel)]="reg.state" required>
+      <div *ngIf="state.errors && (state.invalid || state.touched)" style="color: red">
+        <small  *ngIf="state.errors.required && state.touched" >State is Required</small>
+        <small  *ngIf="state.errors.pattern" >State Name should not contain integer or special symbol</small> 
+      </div>
+
+      <label><b>City</b></label>
+      <input type="text" #city="ngModel" pattern="[a-zA-Z]{2,15}" [class.is-invalid]="city.invalid && city.touched" placeholder="Enter city" name="city" [(ngModel)]="reg.city" required>
+      <div *ngIf="city.errors && (city.invalid || city.touched)" style="color: red">
+        <small  *ngIf="city.errors.required && city.touched" >City is Required</small>
+        <small  *ngIf="city.errors.pattern" >City Name Should should not contain integer or special symbol</small> 
+      </div>
+
+      <label><b>Pincode</b></label>
+      <input type="text" #pin="ngModel" pattern="^[0-9]{6}" [class.is-invalid]="pin.invalid && pin.touched" placeholder="Enter pincode" name="pin" [(ngModel)]="reg.pincode" required>
+      <div *ngIf="pin.errors && (pin.invalid || pin.touched)" style="color: red">
+        <small  *ngIf="pin.errors.required && pin.touched" >pincode is Required</small>
+        <small  *ngIf="pin.errors.pattern" >pincode Should be in format @example it should be of 6 digits</small> 
+      </div>
+
+      <label><b>Home-No.</b></label>
+      <input type="text" #home="ngModel" pattern="^[a-zA-Z0-9]{2,4}$" [class.is-invalid]="home.invalid && home.touched" placeholder="Enter home-no" name="home" [(ngModel)]="reg.homeno" required>
+      <div *ngIf="home.errors && (home.invalid || home.touched)" style="color: red">
+        <small  *ngIf="home.errors.required && home.touched" >Home-no is Required</small>
+        <small  *ngIf="home.errors.pattern" >Home-no Should be in format @example contains only char and digit</small> 
+      </div>
+      
+  
+      <div class="clearfix">
+        <button type="button" href="" class="cancelbtn" ><a [routerLink]="['']">Cancel</a></button>
+        <button type="submit" [disabled]="CustForm.form.invalid" class="signupbtn">Sign Up</button>
+      </div>
+    </form>

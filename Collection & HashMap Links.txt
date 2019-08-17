@@ -1,0 +1,15 @@
+For Sunday and Monday:
+
+1. Data Structures Tutorial 1 - Collections Framework Java
+https://www.youtube.com/watch?v=p1M3i6FzZHM
+2. Java Collections Tutorial 02 | List - ArrayList in Java  https://www.youtube.com/watch?v=45d2Ci3fNIU
+3. When to Use List, Set, Map in Java Collections  https://www.youtube.com/watch?v=uMqWEeTeeCI
+
+
+1. For Saturday:
+Hashing Technique simplified
+https://www.youtube.com/watch?v=mFY0J5W8Udk   
+2. For Tuesday:
+[PRACTICAL]How Hashmap works internally || Debugging || part 2
+https://www.youtube.com/watch?v=fSjxhOYPBRI
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

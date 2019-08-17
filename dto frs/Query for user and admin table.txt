@@ -1,0 +1,26 @@
+create table Admin
+(username varchar(20) primary key,
+password varchar(20) not null);
+
+
+create table customer
+(username varchar(20) primary key,
+password varchar(20) not null);
+
+//For Insertion to customer table
+insert all
+into customer(username, password) Values ('aman', 'pass123')
+into customer(username, password) Values ('surendran', 'pass1234')
+into customer(username, password) Values ('sakshi', 'pass1234')
+into customer(username, password) Values ('vishal', 'pass1234')
+into customer(username, password) Values ('seeta', 'pass1234')
+into customer(username, password) Values ('amanvj', 'pass1234')
+select * from dual;
+
+//For Insertion to admin table
+insert all
+into admin(username, password) Values ('sakshi', 'pass1234')
+into admin(username, password) Values ('seeta', 'pass1234')
+select * from dual;
+
+create table user_table
